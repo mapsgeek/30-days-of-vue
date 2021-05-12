@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-05-12T01:36:27.883Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="AGqJj0smY1lfXxHFdPAo" version="14.6.12" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-12T01:38:56.651Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="krR0wmbbPnZY_SzLBuWM" version="14.6.12" type="github">
   <diagram id="teF4p34R_M3iVLTVfffR" name="Page-1">
     <mxGraphModel dx="1596" dy="3134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="5qZYxId07lwyr9qLkioU-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="1023.12" y="-1320" width="260" height="260" as="geometry" />
+          <mxGeometry x="1015.62" y="-1310" width="260" height="260" as="geometry" />
         </mxCell>
         <mxCell id="5qZYxId07lwyr9qLkioU-2" value="Loading game world as a basemap&lt;br&gt;including OSM data&lt;br&gt;&lt;br&gt;Roads&lt;br&gt;Building blocks&lt;br&gt;Parks etc.&lt;br&gt;&lt;br&gt;or any other data layer provided by any 3rd party to be integrated into the basemap&amp;nbsp;&lt;br&gt;&lt;br&gt;Example: if you happened to have better or more accurate building locations or data OSM doesn&#39;t have or even just your own data and no OSM at all" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1035.62" y="-1285" width="240" height="215" as="geometry" />
@@ -26,10 +26,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5qZYxId07lwyr9qLkioU-14" value="&#xa;&#xa;&lt;p class=&quot;color-gray mb18&quot; style=&quot;box-sizing: inherit; margin: 0px 0px 18px; padding: 0px; border: 0px; font-size: 15px; vertical-align: baseline; color: rgb(96, 125, 156); font-family: &amp;quot;open sans&amp;quot;, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255);&quot;&gt;A user of Mapbox services within your Unity app during your month-long billing period. Each user may make an unlimited number of Vector Tiles API, Raster Tiles API, and Static Tiles API requests per month.&lt;/p&gt;&lt;br class=&quot;Apple-interchange-newline&quot;&gt;&#xa;&#xa;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1035.62" y="-600" width="270" height="180" as="geometry" />
+          <mxGeometry x="1005.6199999999999" y="-590" width="270" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="5qZYxId07lwyr9qLkioU-15" value="Provided by mapbox or any other cloud tiles hosting or self-hosted and created tiles&lt;br style=&quot;font-size: 14px;&quot;&gt;this layer should be non-interactive&lt;br style=&quot;font-size: 14px;&quot;&gt;or used for any kind of location based calculations or analysis&lt;br style=&quot;font-size: 14px;&quot;&gt;pre-generated into an MBTiles file format&amp;nbsp;&lt;br style=&quot;font-size: 14px;&quot;&gt;Once generated these can&#39;t be selectively updated per tile, you will have to run the building process on the updated data sources again&lt;br style=&quot;font-size: 14px;&quot;&gt;either manually or via an automated process&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;Ideal usage is for data that doesn&#39;t change much and can&#39;t be used for user based data entries scenario&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;labelBorderColor=none;labelPosition=center;verticalLabelPosition=middle;horizontal=1;" vertex="1" parent="1">
-          <mxGeometry x="1005.62" y="-1000" width="295" height="270" as="geometry" />
+        <mxCell id="5qZYxId07lwyr9qLkioU-15" value="Provided by mapbox or any other cloud tiles hosting or self-hosted and created tiles&lt;br style=&quot;font-size: 14px&quot;&gt;this layer should be non-interactive&lt;br style=&quot;font-size: 14px&quot;&gt;or used for any kind of location based calculations or analysis&lt;br style=&quot;font-size: 14px&quot;&gt;pre-generated into an MBTiles file format&lt;br&gt;&lt;br style=&quot;font-size: 14px&quot;&gt;Once generated these can&#39;t be selectively updated per tile, you will have to run the building process on the updated data sources again&lt;br style=&quot;font-size: 14px&quot;&gt;either manually or via an automated process&lt;br&gt;but this shouldn&#39;t be a problem since that it has nothing to do with updates happening in the game&lt;br style=&quot;font-size: 14px&quot;&gt;Ideal usage is for data that doesn&#39;t change much and can&#39;t be used for user based data entries scenario&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;labelBorderColor=none;labelPosition=center;verticalLabelPosition=middle;horizontal=1;" vertex="1" parent="1">
+          <mxGeometry x="1005.62" y="-1000" width="294.38" height="290" as="geometry" />
         </mxCell>
         <mxCell id="5qZYxId07lwyr9qLkioU-17" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1" source="5qZYxId07lwyr9qLkioU-15">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -47,19 +47,19 @@
           <mxGeometry x="1085.62" y="-670" width="130" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5qZYxId07lwyr9qLkioU-26" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="1">
-          <mxGeometry x="471.25" y="-1060" width="343.75" height="550" as="geometry" />
+          <mxGeometry x="471.25" y="-1050" width="343.75" height="550" as="geometry" />
         </mxCell>
         <mxCell id="5qZYxId07lwyr9qLkioU-27" value="Depends on the type of layers Mapbox Unity allows to create and add to the map" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="556.87" y="-1050" width="160" height="100" as="geometry" />
+          <mxGeometry x="556.87" y="-1045" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="5qZYxId07lwyr9qLkioU-28" value="as a quick look into the SDK docs it seems like the standard is to load data via tilesets hosted on mapbox" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="556.87" y="-960" width="160" height="100" as="geometry" />
+          <mxGeometry x="556.87" y="-950" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="5qZYxId07lwyr9qLkioU-29" value="Ideally it&#39;s not recommended to use vector-tiles for this type of data specially that all the data which the game needs is actually just points x,y coordinates" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="556.87" y="-870" width="172.5" height="140" as="geometry" />
+          <mxGeometry x="550.62" y="-860" width="172.5" height="140" as="geometry" />
         </mxCell>
         <mxCell id="5qZYxId07lwyr9qLkioU-30" value="This depends on the database is being used to store player based data and activities on the map&lt;br&gt;but this data would be retrieved in either geojson or just x,y into a marker on the map" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="550.62" y="-730" width="172.5" height="140" as="geometry" />
+          <mxGeometry x="550.62" y="-720" width="172.5" height="140" as="geometry" />
         </mxCell>
         <mxCell id="5qZYxId07lwyr9qLkioU-31" value="&lt;span style=&quot;font-size: 28px&quot;&gt;&lt;b&gt;Separation&lt;/b&gt;&lt;/span&gt;&lt;h1&gt;&lt;span&gt;&amp;nbsp;of concerns&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;align=center;" vertex="1" parent="1">
           <mxGeometry x="100" y="-1210" width="190" height="100" as="geometry" />
